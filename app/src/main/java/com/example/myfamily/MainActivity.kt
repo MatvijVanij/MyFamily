@@ -30,5 +30,8 @@ class MainActivity : AppCompatActivity() {
         bindingClass.bThird.setOnClickListener(){
             bindingClass.imagePhoto.setImageResource(R.drawable.meshik)
         }
+        bindingClass.textView.setOnClickListener(){
+            bindingClass.imagePhoto.setImageResource(R.drawable.myfamily)
+        }
     }
 }
